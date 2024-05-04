@@ -1,0 +1,321 @@
+
+
+  
+    
+<head>
+
+  <!--TITLE
+  <title>Cleaning Service</title>-->
+  
+  <!--SHORTCUT ICON
+  <link rel="shortcut icon" href="images/#">-->
+  
+  <!--META TAGS
+  <meta charset="UTF-8">
+  <meta name="language" content="ES">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">-->
+  
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+  
+  <!--STYLE SHEET
+  <link rel="stylesheet" href="css/#">
+  <link rel="stylesheet" href="css/#">-->
+  
+  </head>
+  <body>
+  
+  <!--MAIN-->
+  <main class="flex">
+      <section class="flex-content padding_2x">
+          <article>
+              <em class="tag">SEAL CLEANINGS</em>
+              <h1 class="title big">Best <em>Commercial & Residential</em> Cleaning Service.</h1>
+              <p>Your Satisfaction Is Our Priority</p>
+              <a href="#" class="btn1">Book a service <i class="fa fa-arrow-right"></i></a>
+          </article>
+      </section>
+      <section class="flex-content padding_2x">
+      </section>
+  </main>
+  
+  <!--SECTION1-->
+  <div class="section1">
+      <section class="flex-content padding_2x">
+          <em class="tag">ABOUT US</em>
+          <h1 class="title medium">We help you to keep your place clean</h1>
+          <p>At SEAL CLEANINGS, we offer top-notch car cleaning services, including self-serve, full-service, and flex-serve options, as well as home cleaning services that cover everything from bathrooms and kitchens to carpets and hard floors. Our no-rescheduling-fee policy and instant quotes make it easy to get started. Contact us today to learn more.</p>
+          
+      </section>
+      <!-- Book Service Section -->
+<!-- Book Service Section -->
+<section id="book_service_section" class="flex-content padding_2x">
+  <form id="form" class="padding_2x" action="https://formspree.io/f/mpzkgrwg" method="POST">
+      <h2 class="small">Book a service</h2>
+      <fieldset>
+          <label for="fname">Your name</label>
+          <input type="text" name="fname" id="fname" maxlength="60" />
+      </fieldset>
+      <fieldset>
+          <label for="cno">Contact number</label>
+          <input type="tel" name="cno" id="cno" maxlength="15" />
+      </fieldset>
+      <fieldset>
+          <label for="zip">Zip code</label>
+          <input type="text" name="zip" id="zip" maxlength="8" />
+      </fieldset>
+      <fieldset>
+          <label for="service">Choose a service</label>
+          <select name="service" id="service">
+              <option value="Residential Cleaning">Residential Cleaning</option>
+              <option value="Commercial Cleaning">Commercial Cleaning</option>
+              <option value="Car Wash">Car Wash</option>
+              <option value="Car Wash Full Service">Car Wash Full Service</option>
+          </select>
+      </fieldset>
+      <fieldset>
+          <button type="submit" id="form_btn" class="btn2">SUBMIT DETAILS</button>
+      </fieldset>
+  </form>
+</section>
+
+
+<script>
+  function scrollToBookService() {
+      document.getElementById('book_service_section').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+  </div>
+  
+  
+  <!--SECTION2-->
+  <div class="sections section2 padding_2x">
+    <article class="cards padding_2x">
+        <section class="flex-content padding_2x">
+            <figure>
+                <img src="https://i.postimg.cc/J7yFYNtr/01.png" alt="" loading="lazy">
+            </figure>
+            <h2 class="title small">Car Wash <em>Service</em></h2>
+            <p>Our car wash service ensures your vehicle shines like new. We use top-quality products and techniques to remove dirt, grime, and stains.</p>
+            <p>Book your appointment today and experience the difference!</p>
+        </section>
+        <section class="flex-content padding_2x">
+            <figure>
+                <img src="https://i.postimg.cc/jSTkjBc2/02.png" alt="" loading="lazy">
+                <h2 class="title small">Residential Cleaning <em>Service</em></h2>
+                <p>Our residential cleaning service provides a thorough and efficient cleaning of your home. We pay attention to every detail to ensure your space is spotless and fresh.</p>
+                <p>Schedule your cleaning session with us and enjoy a pristine living environment!</p>
+            </figure>
+        </section>
+        <section class="flex-content padding_2x">
+            <figure>
+                <img src="https://i.postimg.cc/FKsWyc2Q/03.png" alt="" loading="lazy">
+                <h2 class="title small">Commercial Cleaning <em>Service</em></h2>
+                <p>Our commercial cleaning service caters to businesses of all sizes, ensuring a clean and hygienic workspace for your employees and clients. We customize our services to meet your specific needs.</p>
+                <p>Get things done efficiently with our professional cleaning team!</p>
+            </figure>
+        </section>
+    </article>
+</div>
+
+  
+<section id="price_list" class="price_list_section">
+  <div class="container">
+      <div class="title_header">
+          <em>Our Services</em>
+          <h1>Price List</h1>
+      </div>
+      <div class="price_list">
+          <!-- Service 1 -->
+          <div class="service">
+              <h2>Car Wash</h2>
+              <ul>
+                  <li>₹300</li>
+              </ul>
+              <button class="book_now_button" onclick="scrollToBookService()">Book Now</button>
+          </div>
+          <!-- Service 2 -->
+          <div class="service">
+              <h2>Car Wash Full Service</h2>
+              <ul>
+                  <li>₹500</li>
+              </ul>
+              <button class="book_now_button" onclick="scrollToBookService()">Book Now</button>
+          </div>
+          <!-- Service 3 -->
+          <div class="service">
+              <h2>Residential Cleaning</h2>
+              <ul>
+                  <li>₹500</li>
+              </ul>
+              <button class="book_now_button" onclick="scrollToBookService()">Book Now</button>
+          </div>
+          <!-- Service 4 -->
+          <div class="service">
+              <h2>Commercial Cleaning</h2>
+              <ul>
+                  <li>₹5,000</li>
+              </ul>
+              <button class="book_now_button" onclick="scrollToBookService()">Book Now</button>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  <!--SECTION4-->
+  <div class="section4 flex">
+    <section class="flex-content padding_2x">
+        <figure>
+            <img src="https://i.postimg.cc/YSnXb0HL/05.jpg" alt="">
+            <span class="padding_1x">
+                <p class="title medium">5+</p>
+                <em>Years of experience</em>
+            </span>
+        </figure>
+    </section>
+    <section class="flex-content padding_2x">
+        <em class="tag">WHY CHOOSE US?</em>
+        <h1 class="title medium">Choose Us for Expert Cleaning Services</h1>
+        <p>We are committed to providing the best cleaning services tailored to your needs. With over five years of experience, we have perfected our craft to ensure your satisfaction.</p>
+        <ul>
+            <li>Expertise in providing industry-standard cleaning services.</li>
+            <li>Highly skilled professionals dedicated to delivering exceptional results.</li>
+            <li>Customized cleaning solutions to meet your specific requirements.</li>
+        </ul>
+    </section>
+</div>
+
+  <!--SECTION3-->
+  <div class="section3 padding_2x">
+    <div class="title_header">
+        <em>OUR RECENT WORKS</em>
+        <h1 class="title medium">Quality Service</h1>
+    </div>
+    <div class="flex">
+        <section class="flex-content padding_1x">
+            <figure>
+                <img src="https://www.thoughtco.com/thmb/sbFXnF99qr4Z-sJkGh84Bv7DsNU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/family-washing-car-together-140873888-5c8baa6d46e0fb0001f8d008.jpg" alt="">
+                <article>
+                    <span class="padding_1x">
+                        <h2 class="cursive">Car Wash</h2>
+                        <p>Revitalize your vehicle with our professional car wash services. We use the latest techniques and high-quality products to ensure your car sparkles inside and out.</p>
+                    </span>
+                </article>
+            </figure>
+        </section>
+        <section class="flex-content padding_1x">
+            <figure>
+                <img src="https://i.postimg.cc/Df45ynsv/02.jpg" alt="">
+                <article>
+                    <span class="padding_1x">
+                        <h2 class="cursive">Residential Cleaning</h2>
+                        <p>Experience the comfort and freshness of a clean home with our residential cleaning services. Our expert cleaners will leave every corner spotless, giving you peace of mind.</p>
+                    </span>
+                </article>
+            </figure>
+        </section>
+        <section class="flex-content padding_1x">
+            <figure>
+                <img src="https://img1.wsimg.com/isteam/ip/5bf098ab-514a-45e3-9900-8cfae476ef46/IMG_2984.jpeg/:/cr=t:14.81%25,l:0%25,w:100%25,h:70.37%25/rs=w:1240,h:932.3308270676691,cg:true" alt="">
+                <article>
+                    <span class="padding_1x">
+                        <h2 class="cursive">Car Wash Full Service</h2>
+                        <p>Indulge your vehicle with our comprehensive car wash full-service package. From exterior detailing to interior vacuuming, we'll leave your car looking brand new.</p>
+                    </span>
+                </article>
+            </figure>
+        </section>
+        <section class="flex-content padding_1x">
+            <figure>
+                <img src="https://i.postimg.cc/kGSyjv96/04.jpg" alt="">
+                <article>
+                    <span class="padding_1x">
+                        <h2 class="cursive">Commercial Cleaning</h2>
+                        <p>Keep your business space clean and inviting with our professional commercial cleaning services. We understand the importance of a clean environment for your employees and customers.</p>
+                    </span>
+                </article>
+            </figure>
+        </section>
+    </div>
+</div>
+
+  
+  <!--SECTION5-->
+  <div class="section5 flex">
+    <section class="flex-content padding_2x">
+        <h1 class="title small">Stay connected with us</h1>
+        <p>Have any questions? Please feel free to contact us. We are always happy to hear from you.</p>
+        <p>Phone Numbers: <a href="tel:+918309928062">8309928062</a>, <a href="tel:+919963217397">9963217397</a></p>
+        <a href="https://wa.me/918309928062" class="btn1">Contact us</a>
+    </section>
+</div>
+
+  
+  <!--FOOTER-->
+  <footer>
+    <section class="flex-content padding_2x">
+        <h3 class="title small">Welcome to <em>SEAL CLEANINGS</em></h3>
+        <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span class="social_icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+        </span>
+    </section>
+    <section class="flex-content padding_2x">
+        <h3 class="title small">Opening hours</h3>
+        <p>Monday ~ Sunday, 6am-11pm </p>
+    </section>
+    <section class="flex-content padding_2x">
+        <h3 class="title small">Available Locations</h3>
+        <ul>
+            <li>Bachupally</li>
+            <li>Gachibowli</li>
+            <li>Madhapur</li>
+            <li>Miyapur</li>
+            <li>Kondapur</li>
+            <li>Chandanagar</li>
+            <li>Hitech City</li>
+            <li>Kompally</li>
+            <li>Kukatpally</li>
+        </ul>
+    </section>
+    <section class="flex-content padding_2x">
+        <h3 class="title small">Newsletter</h3>
+        <p>Subscribe to our newsletter to get the latest updates and news.</p>
+        <fieldset class="flex">
+            <input type="email" name="email" placeholder="Email address" class="flex-content" required="" />
+            <button class="btn1 flex-content"><i class="fa fa-paper-plane"></i></button>
+        </fieldset>
+    </section>
+</footer>
+
+  <div class="sub_footer">
+  <p> 2022 © All rights reserved by SEAL CLEANINGS</p>
+  </div>
+  
+  <!--JAVASCRIPT
+  <script type="text/javascript" src="js/#"></script>-->
+  
+    
+    
+  <!--REMOVE THIS-->
+  <div class="credits">
+  <b>Credits:</b>
+  <a href="https://postimg.cc" title="Publish Your Images" target="_blank">PostImages</a> , 
+  <a href="https://unsplash.com/photos/uq2E2V4LhCY" title="Images"  target="_blank">Unsplash</a> ,
+  <a href="https://www.flaticon.com" title="Nav Icons" target="_blank">FlatIcon</a> 
+   ,
+  <a href="https://www.freepik.com/search?format=search&query=panorama" title="Banner Image" target="_blank">Freepik</a> 
+  </div>
+    
+   
+    
